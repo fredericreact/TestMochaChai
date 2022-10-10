@@ -1,0 +1,29 @@
+.home {
+  padding-top: 20px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  &-infos {
+    padding: 15px;
+  }
+  &-image {
+    width: 100%;
+  }
+  &-title {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  &-difficulty {
+    margin: 5px 0;
+  }
+}
